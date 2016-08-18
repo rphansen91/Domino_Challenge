@@ -68,455 +68,455 @@ h1:active span.light {
   transform-origin: bottom right;
 }
 .falling .domino {
-  animation: tilt 16s linear infinite;
+  animation: tilt 6s linear infinite;
 }
 .domino:nth-of-type(1) {
   right: 0px;
 }
 .falling .domino:nth-of-type(1) {
   right: 0;
-  animation-delay: -0.25s;
+  animation-delay: -0.09375s;
 }
 .domino:nth-of-type(2) {
   right: 14px;
 }
 .falling .domino:nth-of-type(2) {
   right: 0;
-  animation-delay: -0.5s;
+  animation-delay: -0.1875s;
 }
 .domino:nth-of-type(3) {
   right: 28px;
 }
 .falling .domino:nth-of-type(3) {
   right: 0;
-  animation-delay: -0.75s;
+  animation-delay: -0.28125s;
 }
 .domino:nth-of-type(4) {
   right: 42px;
 }
 .falling .domino:nth-of-type(4) {
   right: 0;
-  animation-delay: -1s;
+  animation-delay: -0.375s;
 }
 .domino:nth-of-type(5) {
   right: 56px;
 }
 .falling .domino:nth-of-type(5) {
   right: 0;
-  animation-delay: -1.25s;
+  animation-delay: -0.46875s;
 }
 .domino:nth-of-type(6) {
   right: 70px;
 }
 .falling .domino:nth-of-type(6) {
   right: 0;
-  animation-delay: -1.5s;
+  animation-delay: -0.5625s;
 }
 .domino:nth-of-type(7) {
   right: 84px;
 }
 .falling .domino:nth-of-type(7) {
   right: 0;
-  animation-delay: -1.75s;
+  animation-delay: -0.65625s;
 }
 .domino:nth-of-type(8) {
   right: 98px;
 }
 .falling .domino:nth-of-type(8) {
   right: 0;
-  animation-delay: -2s;
+  animation-delay: -0.75s;
 }
 .domino:nth-of-type(9) {
   right: 112px;
 }
 .falling .domino:nth-of-type(9) {
   right: 0;
-  animation-delay: -2.25s;
+  animation-delay: -0.84375s;
 }
 .domino:nth-of-type(10) {
   right: 126px;
 }
 .falling .domino:nth-of-type(10) {
   right: 0;
-  animation-delay: -2.5s;
+  animation-delay: -0.9375s;
 }
 .domino:nth-of-type(11) {
   right: 140px;
 }
 .falling .domino:nth-of-type(11) {
   right: 0;
-  animation-delay: -2.75s;
+  animation-delay: -1.03125s;
 }
 .domino:nth-of-type(12) {
   right: 154px;
 }
 .falling .domino:nth-of-type(12) {
   right: 0;
-  animation-delay: -3s;
+  animation-delay: -1.125s;
 }
 .domino:nth-of-type(13) {
   right: 168px;
 }
 .falling .domino:nth-of-type(13) {
   right: 0;
-  animation-delay: -3.25s;
+  animation-delay: -1.21875s;
 }
 .domino:nth-of-type(14) {
   right: 182px;
 }
 .falling .domino:nth-of-type(14) {
   right: 0;
-  animation-delay: -3.5s;
+  animation-delay: -1.3125s;
 }
 .domino:nth-of-type(15) {
   right: 196px;
 }
 .falling .domino:nth-of-type(15) {
   right: 0;
-  animation-delay: -3.75s;
+  animation-delay: -1.40625s;
 }
 .domino:nth-of-type(16) {
   right: 210px;
 }
 .falling .domino:nth-of-type(16) {
   right: 0;
-  animation-delay: -4s;
+  animation-delay: -1.5s;
 }
 .domino:nth-of-type(17) {
   right: 224px;
 }
 .falling .domino:nth-of-type(17) {
   right: 0;
-  animation-delay: -4.25s;
+  animation-delay: -1.59375s;
 }
 .domino:nth-of-type(18) {
   right: 238px;
 }
 .falling .domino:nth-of-type(18) {
   right: 0;
-  animation-delay: -4.5s;
+  animation-delay: -1.6875s;
 }
 .domino:nth-of-type(19) {
   right: 252px;
 }
 .falling .domino:nth-of-type(19) {
   right: 0;
-  animation-delay: -4.75s;
+  animation-delay: -1.78125s;
 }
 .domino:nth-of-type(20) {
   right: 266px;
 }
 .falling .domino:nth-of-type(20) {
   right: 0;
-  animation-delay: -5s;
+  animation-delay: -1.875s;
 }
 .domino:nth-of-type(21) {
   right: 280px;
 }
 .falling .domino:nth-of-type(21) {
   right: 0;
-  animation-delay: -5.25s;
+  animation-delay: -1.96875s;
 }
 .domino:nth-of-type(22) {
   right: 294px;
 }
 .falling .domino:nth-of-type(22) {
   right: 0;
-  animation-delay: -5.5s;
+  animation-delay: -2.0625s;
 }
 .domino:nth-of-type(23) {
   right: 308px;
 }
 .falling .domino:nth-of-type(23) {
   right: 0;
-  animation-delay: -5.75s;
+  animation-delay: -2.15625s;
 }
 .domino:nth-of-type(24) {
   right: 322px;
 }
 .falling .domino:nth-of-type(24) {
   right: 0;
-  animation-delay: -6s;
+  animation-delay: -2.25s;
 }
 .domino:nth-of-type(25) {
   right: 336px;
 }
 .falling .domino:nth-of-type(25) {
   right: 0;
-  animation-delay: -6.25s;
+  animation-delay: -2.34375s;
 }
 .domino:nth-of-type(26) {
   right: 350px;
 }
 .falling .domino:nth-of-type(26) {
   right: 0;
-  animation-delay: -6.5s;
+  animation-delay: -2.4375s;
 }
 .domino:nth-of-type(27) {
   right: 364px;
 }
 .falling .domino:nth-of-type(27) {
   right: 0;
-  animation-delay: -6.75s;
+  animation-delay: -2.53125s;
 }
 .domino:nth-of-type(28) {
   right: 378px;
 }
 .falling .domino:nth-of-type(28) {
   right: 0;
-  animation-delay: -7s;
+  animation-delay: -2.625s;
 }
 .domino:nth-of-type(29) {
   right: 392px;
 }
 .falling .domino:nth-of-type(29) {
   right: 0;
-  animation-delay: -7.25s;
+  animation-delay: -2.71875s;
 }
 .domino:nth-of-type(30) {
   right: 406px;
 }
 .falling .domino:nth-of-type(30) {
   right: 0;
-  animation-delay: -7.5s;
+  animation-delay: -2.8125s;
 }
 .domino:nth-of-type(31) {
   right: 420px;
 }
 .falling .domino:nth-of-type(31) {
   right: 0;
-  animation-delay: -7.75s;
+  animation-delay: -2.90625s;
 }
 .domino:nth-of-type(32) {
   right: 434px;
 }
 .falling .domino:nth-of-type(32) {
   right: 0;
-  animation-delay: -8s;
+  animation-delay: -3s;
 }
 .domino:nth-of-type(33) {
   right: 448px;
 }
 .falling .domino:nth-of-type(33) {
   right: 0;
-  animation-delay: -8.25s;
+  animation-delay: -3.09375s;
 }
 .domino:nth-of-type(34) {
   right: 462px;
 }
 .falling .domino:nth-of-type(34) {
   right: 0;
-  animation-delay: -8.5s;
+  animation-delay: -3.1875s;
 }
 .domino:nth-of-type(35) {
   right: 476px;
 }
 .falling .domino:nth-of-type(35) {
   right: 0;
-  animation-delay: -8.75s;
+  animation-delay: -3.28125s;
 }
 .domino:nth-of-type(36) {
   right: 490px;
 }
 .falling .domino:nth-of-type(36) {
   right: 0;
-  animation-delay: -9s;
+  animation-delay: -3.375s;
 }
 .domino:nth-of-type(37) {
   right: 504px;
 }
 .falling .domino:nth-of-type(37) {
   right: 0;
-  animation-delay: -9.25s;
+  animation-delay: -3.46875s;
 }
 .domino:nth-of-type(38) {
   right: 518px;
 }
 .falling .domino:nth-of-type(38) {
   right: 0;
-  animation-delay: -9.5s;
+  animation-delay: -3.5625s;
 }
 .domino:nth-of-type(39) {
   right: 532px;
 }
 .falling .domino:nth-of-type(39) {
   right: 0;
-  animation-delay: -9.75s;
+  animation-delay: -3.65625s;
 }
 .domino:nth-of-type(40) {
   right: 546px;
 }
 .falling .domino:nth-of-type(40) {
   right: 0;
-  animation-delay: -10s;
+  animation-delay: -3.75s;
 }
 .domino:nth-of-type(41) {
   right: 560px;
 }
 .falling .domino:nth-of-type(41) {
   right: 0;
-  animation-delay: -10.25s;
+  animation-delay: -3.84375s;
 }
 .domino:nth-of-type(42) {
   right: 574px;
 }
 .falling .domino:nth-of-type(42) {
   right: 0;
-  animation-delay: -10.5s;
+  animation-delay: -3.9375s;
 }
 .domino:nth-of-type(43) {
   right: 588px;
 }
 .falling .domino:nth-of-type(43) {
   right: 0;
-  animation-delay: -10.75s;
+  animation-delay: -4.03125s;
 }
 .domino:nth-of-type(44) {
   right: 602px;
 }
 .falling .domino:nth-of-type(44) {
   right: 0;
-  animation-delay: -11s;
+  animation-delay: -4.125s;
 }
 .domino:nth-of-type(45) {
   right: 616px;
 }
 .falling .domino:nth-of-type(45) {
   right: 0;
-  animation-delay: -11.25s;
+  animation-delay: -4.21875s;
 }
 .domino:nth-of-type(46) {
   right: 630px;
 }
 .falling .domino:nth-of-type(46) {
   right: 0;
-  animation-delay: -11.5s;
+  animation-delay: -4.3125s;
 }
 .domino:nth-of-type(47) {
   right: 644px;
 }
 .falling .domino:nth-of-type(47) {
   right: 0;
-  animation-delay: -11.75s;
+  animation-delay: -4.40625s;
 }
 .domino:nth-of-type(48) {
   right: 658px;
 }
 .falling .domino:nth-of-type(48) {
   right: 0;
-  animation-delay: -12s;
+  animation-delay: -4.5s;
 }
 .domino:nth-of-type(49) {
   right: 672px;
 }
 .falling .domino:nth-of-type(49) {
   right: 0;
-  animation-delay: -12.25s;
+  animation-delay: -4.59375s;
 }
 .domino:nth-of-type(50) {
   right: 686px;
 }
 .falling .domino:nth-of-type(50) {
   right: 0;
-  animation-delay: -12.5s;
+  animation-delay: -4.6875s;
 }
 .domino:nth-of-type(51) {
   right: 700px;
 }
 .falling .domino:nth-of-type(51) {
   right: 0;
-  animation-delay: -12.75s;
+  animation-delay: -4.78125s;
 }
 .domino:nth-of-type(52) {
   right: 714px;
 }
 .falling .domino:nth-of-type(52) {
   right: 0;
-  animation-delay: -13s;
+  animation-delay: -4.875s;
 }
 .domino:nth-of-type(53) {
   right: 728px;
 }
 .falling .domino:nth-of-type(53) {
   right: 0;
-  animation-delay: -13.25s;
+  animation-delay: -4.96875s;
 }
 .domino:nth-of-type(54) {
   right: 742px;
 }
 .falling .domino:nth-of-type(54) {
   right: 0;
-  animation-delay: -13.5s;
+  animation-delay: -5.0625s;
 }
 .domino:nth-of-type(55) {
   right: 756px;
 }
 .falling .domino:nth-of-type(55) {
   right: 0;
-  animation-delay: -13.75s;
+  animation-delay: -5.15625s;
 }
 .domino:nth-of-type(56) {
   right: 770px;
 }
 .falling .domino:nth-of-type(56) {
   right: 0;
-  animation-delay: -14s;
+  animation-delay: -5.25s;
 }
 .domino:nth-of-type(57) {
   right: 784px;
 }
 .falling .domino:nth-of-type(57) {
   right: 0;
-  animation-delay: -14.25s;
+  animation-delay: -5.34375s;
 }
 .domino:nth-of-type(58) {
   right: 798px;
 }
 .falling .domino:nth-of-type(58) {
   right: 0;
-  animation-delay: -14.5s;
+  animation-delay: -5.4375s;
 }
 .domino:nth-of-type(59) {
   right: 812px;
 }
 .falling .domino:nth-of-type(59) {
   right: 0;
-  animation-delay: -14.75s;
+  animation-delay: -5.53125s;
 }
 .domino:nth-of-type(60) {
   right: 826px;
 }
 .falling .domino:nth-of-type(60) {
   right: 0;
-  animation-delay: -15s;
+  animation-delay: -5.625s;
 }
 .domino:nth-of-type(61) {
   right: 840px;
 }
 .falling .domino:nth-of-type(61) {
   right: 0;
-  animation-delay: -15.25s;
+  animation-delay: -5.71875s;
 }
 .domino:nth-of-type(62) {
   right: 854px;
 }
 .falling .domino:nth-of-type(62) {
   right: 0;
-  animation-delay: -15.5s;
+  animation-delay: -5.8125s;
 }
 .domino:nth-of-type(63) {
   right: 868px;
 }
 .falling .domino:nth-of-type(63) {
   right: 0;
-  animation-delay: -15.75s;
+  animation-delay: -5.90625s;
 }
 .domino:nth-of-type(64) {
   right: 882px;
 }
 .falling .domino:nth-of-type(64) {
   right: 0;
-  animation-delay: -16s;
+  animation-delay: -6s;
 }
 @keyframes tilt {
   0% {
