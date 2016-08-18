@@ -1,0 +1,111 @@
+@dominos: 64;
+@duration: 16s;
+@width: 50px;
+
+::selection{background: rgba(0, 0, 0, 0.1);}
+
+html{ width:100%; height: 100%; background: #9FA7B2 no-repeat center center; background-size: cover;}
+
+h1{
+  display: block;
+  width: 800px;
+  height: 200px;
+  line-height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -400px;
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+  text-transform:uppercase;
+  font-size: 80px;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+  cursor:pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  white-space: nowrap;
+}
+
+h1 span.light{
+  color:#fefefe;
+  text-shadow:
+    0px 1px 0px #c0c0c0,
+    0px 2px 0px #b0b0b0,
+    0px 3px 0px #a0a0a0,
+    0px 4px 0px #909090,
+    0px 5px 10px rgba(0, 0, 0, 0.6)
+    ;
+}
+
+h1:active{
+  line-height: 205px;
+}
+
+h1:active span.light{
+  color:#fefefe;
+  text-shadow:
+    0px 0px 0px #c0c0c0,
+    0px 0px 0px #b0b0b0,
+    0px 0px 0px #a0a0a0,
+    0px 0px 0px #909090,
+    0px 1px 3px rgba(0, 0, 0, 0.4)
+    ;
+}
+
+
+// DOMINOS
+
+.stage {
+ position: absolute;
+ top: 50%;
+ left: 0;
+ right: 0;
+ margin: auto;
+ margin-top: -200px;
+ width: 800px;
+ height: 200px;
+}
+.loader {
+ position: relative;
+ display: inline-block;
+ text-align: center;
+ width: 800px;
+ height: 100px;
+ overflow: hidden;
+}
+.domino {
+ position: absolute;
+ background-color: #101010;
+ width: 12px;
+ height: 50px;
+ box-shadow: 0 0 1px rgba(255,255,255,.9);
+ bottom:0;
+ right: 0;
+ opacity: 1;
+ transform-origin: bottom right;
+}
+
+.falling .domino {animation: tilt @duration linear infinite;}
+
+.loop(@i) when (@i > 0) {
+  .loop((@i - 1));    // next iteration
+  
+  .domino:nth-of-type(@{i}) {
+  	right: ((@i - 1) * 14px);
+  }
+  .falling .domino:nth-of-type(@{i}) {
+  	right: 0;
+	animation-delay: -((@duration / @dominos) * @i);
+  }
+}
+
+.loop(@dominos);
+
+@keyframes tilt {
+   0% { opacity: .1; }
+   5% { opacity: 1; }
+  40% { transform: translate(-416px) rotate(0deg); }
+  70% { transform: translate(-728px) rotate(77deg); }
+ 100% { transform: translate(-1040px) rotate(77deg);opacity: 1; }
+}
