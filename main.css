@@ -19,6 +19,7 @@ h1{
   border-bottom: 4px solid white;
   cursor:pointer;
   user-select: none;
+  white-space: nowrap;
 }
 
 h1 span.light{
