@@ -22,7 +22,7 @@ try {
 
   var bag1 = new Bag().add(0,6).add(0,4).add(3,4);
   var bag2 = new Bag().add(0,2).add(1,1).add(3,3);
-  
+
   var box = new Box().add(bag1).add(bag2);
 
   var retrievedBag = box.findBag(2,0)[0];
